@@ -51,8 +51,8 @@ export default function Content() {
                             consectetur diam sed, ultrices urna.
                         </p>
                     </div>
-                    <div className="hold-slider-info">
-                        <div className = "slider-info">
+                    <div className="hold_slider_info">
+                        <div className = "slider_info">
                             <div className="categorry blue">
                                 <p>People</p>
                             </div>

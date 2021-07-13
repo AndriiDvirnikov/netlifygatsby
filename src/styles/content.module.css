@@ -1,0 +1,11 @@
+
+.hold_slider_info{
+    width: 100%;
+    max-width: 1200px;
+    position: absolute;
+    bottom: 35px;
+}
+.slider_info{
+    display: flex;
+    justify-content: space-between; 
+}
