@@ -1,4 +1,5 @@
 import React from "react"
+import { StaticImage } from 'gatsby-plugin-image'
 import Content from "../components/Content"
 import Layout from '../components/Layout'
 import Newsletter from "../components/Newsletter"
@@ -11,6 +12,7 @@ export default function Home() {
       <Content />
       <Newsletter />
       <Bloglist />
+      <StaticImage alt="staticimage" src= "https://get-edu.kz/wp-content/uploads/2020/04/helpbox-contact.jpg" />
     </Layout>
   )
 }
