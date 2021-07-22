@@ -275,3 +275,7 @@ right: 0;
 .footer-inner a {
     color:#a7acbc ;
 }
+.blog-mini img {
+    width: 380px;
+    height: 253px;
+}

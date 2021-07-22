@@ -1,0 +1,52 @@
+{
+    "Main": {
+      "title_news": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading2",
+          "label": "Title News",
+          "placeholder": "Enter news title"
+        }
+      },
+      "data_post_news": {
+        "type": "Date",
+        "config": {
+          "label": "Data post news",
+          "placeholder": "Data post"
+        }
+      },
+      "author": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+          "label": "Author",
+          "placeholder": "Author post"
+        }
+      },
+      "category": {
+        "type": "StructuredText",
+        "config": {
+          "multi": "paragraph, preformatted, heading1, heading2, heading3, heading4, heading5, heading6, strong, em, hyperlink, image, embed, list-item, o-list-item, rtl",
+          "label": "Category",
+          "placeholder": "Enter category post"
+        }
+      },
+      "color_category": {
+        "type": "Color",
+        "config": {
+          "label": "Color category"
+        }
+      },
+      "image_news": {
+        "type": "Image",
+        "config": {
+          "constraint": {
+            "width": 578,
+            "height": 260
+          },
+          "thumbnails": [],
+          "label": "Image news"
+        }
+      }
+    }
+  }
