@@ -6,7 +6,7 @@
   "license": "0BSD",
   "homepage":"https://AndriiDvirnikov.github.io/mytestgatsby",
   "scripts": {
-    "deploy": "gh-pages -d my-hatsby-project",
+    "deploy": "gh-pages -d public",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
