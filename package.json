@@ -4,7 +4,7 @@
   "description": "A simplified bare-bones starter for Gatsby",
   "version": "0.1.0",
   "license": "0BSD",
-  "homepage":"https://AndriiDvirnikov.github.io/mytestgatsby",
+  "homepage": "https://AndriiDvirnikov.github.io/netlifygatsby",
   "scripts": {
     "deploy": "gh-pages -d public",
     "build": "gatsby build",
