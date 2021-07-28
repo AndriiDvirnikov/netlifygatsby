@@ -24,7 +24,7 @@ export default function Content() {
                         </div>
                         <div className = "cart-blog">
                             <div className ="hold-img-blog">
-                                <img src ="/blog-final_05.jpg"/>
+                                <img src ="/blog-final_05.jpg" alt="blog-img"/>
                                 <div className ="categorry-blog black">
                                     <p>Tech</p>
                                 </div>
@@ -43,7 +43,7 @@ export default function Content() {
 
             <div className ="conteiner">
                 <div className="hold-solo-block">
-                    <img src="/blog-final13.jpg"/>
+                    <img src="/blog-final13.jpg" alt="blog-img"/>
 
                     <div className="text-blog">
                         <h1>Proin congue elit fringilla</h1>
@@ -70,7 +70,7 @@ export default function Content() {
                     <div className="hold-card">
                         <div className = "cart-blog">
                             <div className ="hold-img-blog">
-                                <img src ="/blog-final_03.jpg"/>
+                                <img src ="/blog-final_03.jpg "alt="blog-img"/>
                                 <div className ="categorry-blog red">
                                     <p>Trips</p>
                                 </div>
@@ -85,7 +85,7 @@ export default function Content() {
                         </div>
                         <div className = "cart-blog">
                             <div className ="hold-img-blog">
-                                <img src ="/blog-final_05.jpg"/>
+                                <img src ="/blog-final_05.jpg" alt="blog-img"/>
                                 <div className ="categorry-blog black">
                                     <p>Tech</p>
                                 </div>

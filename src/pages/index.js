@@ -20,7 +20,7 @@ export default function Home({data}) {
       </div>
       <Newsletter />
       
-      {/*<StaticImage alt="staticimage" src= "https://get-edu.kz/wp-content/uploads/2020/04/helpbox-contact.jpg" />*/}
+      
     </Layout>
   )
 }

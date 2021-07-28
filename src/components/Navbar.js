@@ -9,7 +9,7 @@ export default function Navbar() {
                     <div className="innere-header">
                         <div className="left-header">
                             <div className = "logo">Blog <span>template</span></div>
-                            <div className = "btn_search"><img src="../../static/search.png" /></div>
+                            <div className = "btn_search"><img src="../../static/search.png" alt="blog-img"/></div>
                             <nav>
                                 <Link className="nav_link" to ="/">About</Link>
                                 <Link className="nav_link" to ="/">Cooperation</Link>
