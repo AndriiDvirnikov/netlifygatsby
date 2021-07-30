@@ -119,9 +119,10 @@ right: 0;
     font-size: 18px;
 }
 .bold-button{
-    font-weight: bold;
     font-size: 28px;
-    padding: 0px 5px !important;
+    font-weight: 700;
+    padding: 0px 5px 14px 0 !important;
+    margin-right: 10px;
 }
 
 
