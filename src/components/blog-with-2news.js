@@ -9,7 +9,7 @@ export default function BlogWithTwoNews( {props} ) {
                     {props.twonews.edges.map( twonews=>( 
                         <div key={twonews.node.data.title_news.text} className ="cart-blog">
                             <div className ="hold-img-blog">
-                                <img src ={twonews.node.data.image_news.url} />
+                                <img src ={twonews.node.data.image_news.url} alt={twonews.node.data.image_news.alt}/>
                                 <div className ="categorry-blog" style={{ backgroundColor:twonews.node.data.color_category}} >
                                     <p>{twonews.node.data.category.text}</p>
                                 </div>

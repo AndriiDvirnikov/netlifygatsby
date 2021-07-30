@@ -41,6 +41,7 @@ query Posts {
           data_post_news
           image_news {
             url
+            alt
           }
           title_news {
             text
@@ -49,7 +50,7 @@ query Posts {
       }
     }
   }
- posts: allPrismicArticles {
+  posts: allPrismicArticles {
     edges {
       node {
         data {
@@ -66,6 +67,7 @@ query Posts {
           datapost
           post_image {
             url
+            alt
           }
         }
       }
