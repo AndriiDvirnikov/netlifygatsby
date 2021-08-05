@@ -4,7 +4,6 @@ import React from 'react'
 
 
 export default function Bloglist( {props} ) {
-    console.log('blog list props', props.posts.edges[0].node.data.post_image.alt)
     return (
         <div className="conteiner">
             <div className="hold-blog-mini">
