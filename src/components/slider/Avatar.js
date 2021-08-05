@@ -10,7 +10,7 @@ export default function Avatar() {
   return (
     <SliderAvatar>
       <StaticImage
-        src="../images/women.png"
+        src="../../images/women.png"
         alt="image"
         width={300}
         placeholder="tracedSVG"

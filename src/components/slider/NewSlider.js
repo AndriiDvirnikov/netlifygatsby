@@ -35,7 +35,7 @@ export default function NewSlider({props}) {
   return (
     <Slider>
       <StaticImage
-        src="../images/slider.jpg"
+        src="../../images/slider.jpg"
         alt="image"
         placeholder="tracedSVG"
         quality="40"
